@@ -11,7 +11,7 @@
              stage('2-saada1-contribution'){
              steps{
                  sh 'lscpu'
-                 sh 'sudo systemctl status jenkins
+                 sh 'sudo systemctl status jenkins'
 
                  }
 
@@ -23,7 +23,7 @@
 
                  }
              }
-             stage('4-Fancis-contribution'{
+             stage('4-Fancis-contribution'){
                  steps{
                      sh 'df -h'
                      sh 'sudo systemctl status jenkins'
